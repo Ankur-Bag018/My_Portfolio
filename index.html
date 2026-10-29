@@ -139,14 +139,35 @@
           <div class="card h-100">
             <img src="https://images.pexels.com/photos/11129922/pexels-photo-11129922.jpeg" class="project-card-img" alt="Project 1">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Project No.1</h5>
-              <p class="card-text text-muted flex-grow-1">A brief description of what this project does and technologies used.</p>
+              <h5 class="card-title">PlacementPro</h5>
+              <p class="card-text text-muted flex-grow-1">**PlacementPro: Comprehensive Campus Placement Management System**
+
+PlacementPro is a full-stack, role-based web application built to digitize and streamline the university campus recruitment lifecycle. Designed as a centralized bridge between students, university placement coordinators, and corporate recruiters, the portal automates job postings, document verification, and applicant tracking.
+
+**Core Features & Functionality:**
+
+* **Multi-Tier Role Architecture:** Secure, distinct dashboards tailored for Students, Placement Coordinators, Recruiters, and College Administrators, managed via secure PHP sessions.
+* **Student Profile & Document Vault:** Students can build detailed academic profiles tracking semester-wise SGPAs, overall CGPA, and active backlogs. Features a secure document upload system (resumes, marksheets, government IDs) with server-side validation enforcing 2MB limits and PDF/JPG formats.
+* **Job Application Engine:** Coordinators and recruiters can post active job drives. Students can browse openings and apply in one click. The system includes automated validation to prevent duplicate applications and block students with incomplete profiles from applying.
+* **Dynamic Coordinator Dashboard:** A streamlined applicant tracking system using an interactive accordion UI to group applicants by job. Coordinators can view full student profiles, open uploaded documents directly in the browser, and update candidate statuses (Pending, Selected, Rejected) instantly using asynchronous JavaScript (AJAX) without triggering page reloads.
+
+**Technical Stack:**
+
+* **Frontend:** HTML5, CSS3, JavaScript (Fetch API), Bootstrap 5.3 for responsive design.
+* **Backend:** Core PHP handling routing, secure session management, and robust file system interactions for document storage.
+* **Database:** MySQL relational database. Implemented complex SQL `JOIN` queries, foreign key constraints (cascading deletes/updates), and Prepared Statements (`bind_param`) to secure the application against SQL injection attacks.
+
+**Key Technical Achievements:**
+
+* Designed a normalized relational database schema linking `users`, `student_details`, `jobs`, and `job_applications` to eliminate data redundancy.
+* Built a seamless, asynchronous UI for recruiters to process hundreds of applications quickly using AJAX `fetch` requests and JSON responses.
+* Implemented strict backend security measures, including password hashing (`password_verify`), user role verification, and robust file-type checking for academic document uploads. </p>
               <a href="#" class="btn btn-primary mt-auto align-self-start">View Project</a>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 col-lg-4">
+        <!-- <div class="col-12 col-sm-6 col-lg-4">
           <div class="card h-100">
             <img src="https://images.pexels.com/photos/11129922/pexels-photo-11129922.jpeg" class="project-card-img" alt="Project 2">
             <div class="card-body d-flex flex-column">
@@ -158,7 +179,7 @@
         </div>
       </div>
     </section>
-  </div>
+  </div> -->
 
   <!-- Footer -->
   <footer id="contact" class="py-4 text-center mt-5">
