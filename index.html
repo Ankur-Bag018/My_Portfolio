@@ -83,10 +83,13 @@
       <div class="col-12 col-md-8 text-center text-md-start text-white">
         <h1 class="display-5 fw-bold">Ankur Bag</h1>
         <p class="lead">
-          Hello! I am Ankur Bag, a BCA 3rd-year student from Techno India Kolkata. 
-          I am interested in web development and enjoy learning new technologies.
+          Hello! I am Ankur Bag, a BCA (Honours) 3rd-year student at Techno Main Salt Lake (MAKAUT) and an active AWS Intern. 
+          I am passionate about full-stack web development, serverless architecture, and building impactful applications.
         </p>
-        <a href="#contact" class="btn btn-light btn-lg px-4 shadow-sm">Contact Me</a>
+        <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-3">
+          <a href="#contact" class="btn btn-light btn-lg px-4 shadow-sm">Contact Me</a>
+          <a href="AnkurBagResume.pdf" target="_blank" class="btn btn-outline-light btn-lg px-4 shadow-sm">View Resume</a>
+        </div>
       </div>
     </div>
   </main>
@@ -97,17 +100,25 @@
       <h2 class="text-white mb-3">Skills</h2>
       <div class="card p-4">
         <div class="d-flex flex-wrap gap-2">
-          <span class="badge bg-primary fs-6">HTML</span>
-          <span class="badge bg-secondary fs-6">CSS</span>
-          <span class="badge bg-info text-dark fs-6">javaScript</span>
-          <span class="badge bg-warning text-dark fs-6">C language</span>
+          <!-- Core Languages -->
+          <span class="badge bg-warning text-dark fs-6">C / DSA</span>
           <span class="badge bg-success fs-6">Python</span>
-          <span class="badge bg-danger fs-6">DBMS</span>
-          <span class="badge bg-primary fs-6">DSA with C language</span>
-          <span class="badge bg-secondary fs-6">MS Office</span>
-         
-
-
+          <span class="badge bg-primary fs-6">Java</span>
+          <span class="badge bg-info text-dark fs-6">PHP</span>
+          <span class="badge bg-dark fs-6">OOPs</span>
+          <!-- Web Tech -->
+          <span class="badge bg-danger fs-6">HTML & CSS</span>
+          <span class="badge bg-secondary fs-6">JavaScript</span>
+          <span class="badge bg-dark fs-6">Bootstrap</span>
+          <span class="badge bg-danger fs-6">Laravel</span>
+          <!-- DB & Cloud -->
+          <span class="badge bg-primary fs-6">MySQL (DBMS)</span>
+          <!-- <span class="badge bg-warning text-dark fs-6">AWS (Lambda, API Gateway)</span> -->
+          <!-- Core CS -->
+          <span class="badge bg-secondary fs-6">Computer Networking</span>
+          <span class="badge bg-success fs-6">Operating Systems</span>
+          <span class="badge bg-warning text-dark fs-6">Computer Architecture</span>
+          <span class="badge bg-info text-dark fs-6">Digital Electronics</span>
         </div>
       </div>
     </section>
@@ -115,9 +126,69 @@
     <!-- Qualification Section -->
     <section id="qualification" class="mb-5">
       <h2 class="text-white mb-3">Qualification</h2>
-      <div class="card p-4">
-        <h5 class="card-title fw-bold">Bachelor of Computer Applications (BCA)</h5>
-        <p class="card-text mb-0 text-muted">Currently pursuing BCA 3rd Year from Techno India Kolkata.</p>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card p-4 h-100">
+            <h5 class="card-title fw-bold">BCA (Honours)</h5>
+            <h6 class="text-primary">Techno Main Salt Lake (MAKAUT)</h6>
+            <p class="card-text mb-2 text-muted">Currently in 3rd Year.</p>
+            <ul class="mb-0 text-muted small">
+              <li>Semester 1: 7.55 SGPA</li>
+              <li>Semester 2: 7.14 SGPA</li>
+              <li>Semester 3: 8.52 SGPA</li>
+              <li>Semester 4: 7.62 SGPA</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card p-4 h-100">
+            <h5 class="card-title fw-bold">Higher Secondary (Biosciences)</h5>
+            <h6 class="text-primary">WBCHSE - 2024</h6>
+            <p class="card-text mb-3 text-muted">Completed with 62%.</p>
+            
+            <h5 class="card-title fw-bold mt-2">Madhyamik</h5>
+            <h6 class="text-primary">WBBSE - 2022</h6>
+            <p class="card-text mb-0 text-muted">Completed with 67%.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="mb-5">
+      <h2 class="text-white mb-3">Projects</h2>
+      <div class="row g-4">
+        <!-- PlacementPro -->
+        <div class="col-12 col-sm-6 col-lg-6">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80" class="project-card-img" alt="PlacementPro Dashboard">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">PlacementPro</h5>
+              <p class="card-text text-muted flex-grow-1">
+                A full-stack, role-based campus placement management system. It acts as a centralized bridge between students, university coordinators, and recruiters to automate job postings and applicant tracking.<br><br>
+                <strong>Tech Stack:</strong> PHP, MySQL, HTML, CSS, JavaScript (AJAX/Fetch API), Bootstrap.<br>
+                <strong>Key Features:</strong> Secure multi-tier role architecture, automated document verification vault, and asynchronous dynamic dashboards for quick applicant processing.
+              </p>
+              <a href="https://github.com/Ankur-Bag018/PlacementPro" target="_blank" class="btn btn-primary mt-auto align-self-start">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Weather Data Fetcher -->
+        <!-- <div class="col-12 col-sm-6 col-lg-6">
+          <div class="card h-100">
+            <img src="https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg" class="project-card-img" alt="Cloud Architecture">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">Weather Data Fetcher (AWS Serverless)</h5>
+              <p class="card-text text-muted flex-grow-1">
+                A serverless cloud application built as part of my ongoing AWS Internship program. It fetches real-time weather data securely via external APIs.<br><br>
+                <strong>Tech Stack:</strong> AWS Lambda, Amazon API Gateway, Python/Node.js.<br>
+                <strong>Key Features:</strong> Fully serverless architecture, reducing infrastructure overhead while ensuring high availability and secure API routing.
+              </p>
+              <a href="https://github.com/Ankur-Bag018" target="_blank" class="btn btn-primary mt-auto align-self-start">View on GitHub</a>
+            </div>
+          </div>
+        </div> -->
       </div>
     </section>
 
@@ -126,68 +197,27 @@
       <h2 class="text-white mb-3">Hobbies & Interests</h2>
       <div class="card p-4">
         <p class="card-text mb-0">
-          My hobbies and interests include Online Games, Studying, Coding, and Exploring new places.
+          When I'm not coding, my hobbies include playing online games, studying new tech trends, and exploring new places.
         </p>
       </div>
     </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="mb-5">
-      <h2 class="text-white mb-3">Projects</h2>
-      <div class="row g-4">
-        <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card h-100">
-            <img src="https://images.pexels.com/photos/11129922/pexels-photo-11129922.jpeg" class="project-card-img" alt="Project 1">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">PlacementPro</h5>
-              <p class="card-text text-muted flex-grow-1">**PlacementPro: Comprehensive Campus Placement Management System**
-
-PlacementPro is a full-stack, role-based web application built to digitize and streamline the university campus recruitment lifecycle. Designed as a centralized bridge between students, university placement coordinators, and corporate recruiters, the portal automates job postings, document verification, and applicant tracking.
-
-**Core Features & Functionality:**
-
-* **Multi-Tier Role Architecture:** Secure, distinct dashboards tailored for Students, Placement Coordinators, Recruiters, and College Administrators, managed via secure PHP sessions.
-* **Student Profile & Document Vault:** Students can build detailed academic profiles tracking semester-wise SGPAs, overall CGPA, and active backlogs. Features a secure document upload system (resumes, marksheets, government IDs) with server-side validation enforcing 2MB limits and PDF/JPG formats.
-* **Job Application Engine:** Coordinators and recruiters can post active job drives. Students can browse openings and apply in one click. The system includes automated validation to prevent duplicate applications and block students with incomplete profiles from applying.
-* **Dynamic Coordinator Dashboard:** A streamlined applicant tracking system using an interactive accordion UI to group applicants by job. Coordinators can view full student profiles, open uploaded documents directly in the browser, and update candidate statuses (Pending, Selected, Rejected) instantly using asynchronous JavaScript (AJAX) without triggering page reloads.
-
-**Technical Stack:**
-
-* **Frontend:** HTML5, CSS3, JavaScript (Fetch API), Bootstrap 5.3 for responsive design.
-* **Backend:** Core PHP handling routing, secure session management, and robust file system interactions for document storage.
-* **Database:** MySQL relational database. Implemented complex SQL `JOIN` queries, foreign key constraints (cascading deletes/updates), and Prepared Statements (`bind_param`) to secure the application against SQL injection attacks.
-
-**Key Technical Achievements:**
-
-* Designed a normalized relational database schema linking `users`, `student_details`, `jobs`, and `job_applications` to eliminate data redundancy.
-* Built a seamless, asynchronous UI for recruiters to process hundreds of applications quickly using AJAX `fetch` requests and JSON responses.
-* Implemented strict backend security measures, including password hashing (`password_verify`), user role verification, and robust file-type checking for academic document uploads. </p>
-              <a href="#" class="btn btn-primary mt-auto align-self-start">View Project</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card h-100">
-            <img src="https://images.pexels.com/photos/11129922/pexels-photo-11129922.jpeg" class="project-card-img" alt="Project 2">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Project No.2</h5>
-              <p class="card-text text-muted flex-grow-1">A brief description of what this project does and technologies used.</p>
-              <a href="#" class="btn btn-primary mt-auto align-self-start">View Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div> -->
+  </div>
 
   <!-- Footer -->
   <footer id="contact" class="py-4 text-center mt-5">
     <div class="container">
       <h4>Contact Me</h4>
-      <p class="mb-1">
-        Email: <a href="mailto:ankurbag34@gmail.com" class="text-decoration-none fw-semibold">ankurbag34@gmail.com</a>
-      </p>
+      <div class="d-flex justify-content-center gap-3 mt-3 mb-2 flex-wrap">
+        <p class="mb-1">
+          <strong>Email:</strong> <a href="mailto:ankurbag34@gmail.com" class="text-decoration-none fw-semibold">ankurbag34@gmail.com</a>
+        </p>
+        <p class="mb-1">
+          <strong>Phone:</strong> <a href="tel:+917074936676" class="text-decoration-none fw-semibold">+91 70749 36676</a>
+        </p>
+        <p class="mb-1">
+          <strong>GitHub:</strong> <a href="https://github.com/Ankur-Bag018" target="_blank" class="text-decoration-none fw-semibold">Ankur-Bag018</a>
+        </p>
+      </div>
       <small class="text-muted">© 2026 Ankur Bag. All rights reserved.</small>
     </div>
   </footer>
